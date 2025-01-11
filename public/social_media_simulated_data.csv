@@ -1,0 +1,101 @@
+post_id,post_type,likes,comments,shares,views,post_day,post_time,engagement_rate,hashtags_used,post_theme,primary_age_group
+post_034,story,4879,482,690,49825.5,Sunday,14:25,60.51,#fashion,travel,18-24-female
+post_064,video,4596,469,832,10435.0,Wednesday,20:19,58.97,#trending #fashion #travel #food #technology,education,35-44-female
+post_066,photo,4489,380,907,14296.0,Friday,18:35,57.76,#nature #travel #fashion,travel,18-24-male
+post_031,photo,4844,263,574,48030.0,Saturday,06:03,56.81,#travel,travel,25-34-male
+post_017,carousel,4991,413,120,8987.0,Sunday,08:17,55.24,#art #travel #photography #nature,lifestyle,18-24-female
+post_007,story,4736,462,41,6076.5,Sunday,17:27,52.39,#beauty #technology #food #trending #fashion,tech,25-34-female
+post_043,story,4759,319,159,26844.0,Friday,22:57,52.37,#art #technology,travel,35-44-other
+post_003,carousel,4291,394,522,28236.0,Thursday,02:43,52.07,#fitness #photography,lifestyle,18-24-other
+post_038,reel,3843,411,947,37416.0,Wednesday,05:30,52.01,#trending #beauty #photography #food,travel,25-34-male
+post_054,carousel,4837,313,43,17964.0,Thursday,14:01,51.93,#trending #viral,food,25-34-other
+post_041,carousel,3863,347,966,2081.0,Wednesday,21:38,51.76,#lifestyle #food #viral #travel,beauty,25-34-other
+post_075,reel,4382,60,658,40816.5,Tuesday,22:36,51.0,#trending #beauty #art #fashion,fashion,35-44-other
+post_032,photo,4513,236,327,26945.0,Thursday,20:31,50.76,#travel #art #food,education,35-44-female
+post_093,carousel,4836,44,154,28663.0,Friday,14:46,50.34,#fitness #technology #trending #travel #nature,lifestyle,25-34-female
+post_063,video,4318,185,529,28932.0,Tuesday,17:27,50.32,#trending #viral #food,lifestyle,25-34-male
+post_046,video,3557,454,990,6237.0,Tuesday,14:28,50.01,#photography #food #lifestyle #fashion #technology,tech,18-24-other
+post_076,reel,3497,447,976,57330.0,Tuesday,04:13,49.2,#trending,food,35-44-other
+post_033,story,3848,121,876,39474.0,Saturday,21:14,48.45,#fashion #food #travel #technology #nature,tech,35-44-male
+post_060,video,3610,410,822,14284.0,Friday,10:54,48.42,#beauty #nature #food #lifestyle,education,35-44-other
+post_095,carousel,4161,58,574,31977.0,Friday,01:46,47.93,#photography,fashion,25-34-male
+post_053,story,4197,286,180,15993.0,Wednesday,13:40,46.63,#nature #viral #photography,tech,35-44-female
+post_056,photo,3574,393,686,9130.0,Friday,11:03,46.53,#fashion,travel,35-44-other
+post_027,carousel,4129,429,22,18214.0,Thursday,06:59,45.8,#technology #art #lifestyle #travel #food,travel,25-34-male
+post_040,photo,3404,375,667,10204.0,Saturday,13:40,44.46,#art #food #beauty #photography,food,18-24-male
+post_048,carousel,3796,493,108,46543.0,Saturday,19:20,43.97,#fitness #art,tech,35-44-male
+post_085,video,3011,376,963,24289.0,Wednesday,05:50,43.5,#viral #lifestyle #trending #art,food,25-34-other
+post_084,video,3319,293,731,41158.0,Wednesday,23:09,43.43,#fitness #viral,food,25-34-female
+post_045,reel,3681,217,390,13207.5,Monday,00:00,42.88,#viral,travel,35-44-female
+post_006,photo,3342,149,749,20508.0,Monday,16:29,42.4,#fitness #nature,food,35-44-female
+post_049,photo,3099,170,933,46952.0,Monday,04:34,42.02,#art #fitness,education,18-24-male
+post_037,photo,3545,358,292,2150.0,Thursday,09:05,41.95,#fitness #viral,fitness,25-34-female
+post_071,photo,3682,167,325,44919.0,Tuesday,08:04,41.74,#lifestyle,beauty,35-44-other
+post_073,story,3372,239,516,54370.5,Monday,02:10,41.27,#art,education,25-34-female
+post_089,carousel,3076,326,702,42975.0,Saturday,06:10,41.04,#nature #fitness #technology,food,25-34-other
+post_018,video,3727,161,195,40567.0,Saturday,07:47,40.83,#viral #food,fashion,35-44-female
+post_015,photo,3160,217,704,40734.0,Friday,01:31,40.81,#photography #technology #fashion #food #nature,education,35-44-female
+post_028,carousel,2775,431,797,15098.0,Saturday,04:22,40.03,#trending #nature,lifestyle,25-34-male
+post_010,photo,3414,18,501,22699.0,Tuesday,09:48,39.33,#fashion,tech,18-24-female
+post_016,video,2793,140,997,8079.0,Thursday,12:16,39.3,#technology #food #viral #beauty,travel,35-44-female
+post_096,carousel,3469,26,346,30168.0,Sunday,02:45,38.41,#beauty,fashion,25-34-other
+post_062,story,3355,42,412,30192.0,Tuesday,05:35,38.09,#fashion #photography #art,food,35-44-male
+post_011,story,3257,242,306,2814.0,Thursday,17:47,38.05,#travel #art #beauty,fashion,35-44-male
+post_077,photo,2611,273,887,27646.0,Wednesday,12:48,37.71,#beauty #technology #travel #art #lifestyle,beauty,18-24-female
+post_024,carousel,3402,84,260,27258.0,Tuesday,06:20,37.46,#technology #food #nature #travel #fitness,travel,35-44-female
+post_067,story,2427,479,829,47167.5,Sunday,07:04,37.35,#beauty #fashion,food,18-24-other
+post_050,story,3252,77,397,6514.5,Thursday,23:00,37.26,#art #viral #beauty #fashion #fitness,fashion,25-34-female
+post_013,photo,2829,156,611,5142.0,Sunday,08:22,35.96,#technology #fashion #photography #food,food,35-44-male
+post_058,photo,2877,144,542,2679.0,Saturday,07:18,35.63,#fitness #food #art,food,35-44-female
+post_068,photo,3031,384,40,14245.0,Monday,19:12,34.55,#food #technology #travel #trending,beauty,18-24-male
+post_001,story,2890,378,50,24507.0,Sunday,09:27,33.18,#technology #beauty #photography #viral,fashion,25-34-female
+post_080,story,2911,235,96,22603.5,Sunday,01:49,32.42,#trending #photography #fitness #lifestyle #nature,food,18-24-female
+post_082,video,2086,295,838,32843.0,Friday,09:33,32.19,#lifestyle #beauty,food,18-24-male
+post_020,carousel,2081,129,985,38233.0,Friday,17:33,31.95,#technology #fashion #viral #trending,tech,18-24-male
+post_092,reel,3019,13,129,8416.5,Monday,16:18,31.61,#fashion #photography #trending,lifestyle,25-34-female
+post_086,reel,1834,457,858,68535.0,Thursday,04:34,31.49,#technology #nature,fitness,35-44-female
+post_022,video,1629,417,987,47185.0,Saturday,23:51,30.33,#fitness #lifestyle,beauty,35-44-other
+post_012,story,2725,108,185,49639.5,Sunday,22:54,30.18,#art #food #trending,lifestyle,35-44-other
+post_057,photo,1807,401,763,20531.0,Wednesday,18:35,29.71,#food #nature #lifestyle,tech,18-24-male
+post_090,photo,2059,313,579,10540.0,Wednesday,05:06,29.51,#food #lifestyle #beauty,fitness,35-44-other
+post_005,photo,1778,263,896,15599.0,Sunday,10:44,29.37,#art #technology #trending #nature #food,food,35-44-female
+post_052,story,2260,407,250,45562.5,Sunday,07:34,29.17,#travel,tech,35-44-male
+post_059,video,1833,204,871,4506.0,Tuesday,05:41,29.08,#viral,education,25-34-female
+post_036,video,2098,162,630,6949.0,Thursday,07:43,28.9,#nature #fitness,travel,35-44-female
+post_021,photo,1763,170,932,18019.0,Tuesday,08:42,28.65,#fashion #nature,fashion,18-24-other
+post_039,video,1595,393,858,35699.0,Thursday,20:44,28.46,#travel #food #lifestyle #nature,lifestyle,25-34-female
+post_091,reel,2485,156,194,26046.0,Wednesday,10:24,28.35,#trending #art,tech,35-44-female
+post_042,photo,1953,203,643,30305.0,Thursday,20:57,27.99,#nature #technology #fitness #travel #trending,fashion,18-24-female
+post_025,reel,2337,122,327,33204.0,Wednesday,12:08,27.86,#beauty #nature,tech,18-24-male
+post_047,carousel,1736,178,789,21056.0,Thursday,15:17,27.03,#technology #viral #lifestyle #food #photography,lifestyle,25-34-female
+post_078,video,1894,292,475,39649.0,Saturday,11:40,26.61,#food #art #lifestyle #trending #beauty,tech,35-44-female
+post_087,carousel,1943,490,55,36257.0,Monday,01:44,24.88,#travel #technology #fashion #art #viral,fashion,35-44-male
+post_023,video,2138,125,165,19077.0,Monday,04:25,24.28,#food #beauty #photography,fitness,18-24-female
+post_094,reel,1902,201,318,59469.0,Friday,11:49,24.21,#beauty #art,food,25-34-female
+post_009,reel,1822,169,353,33909.0,Wednesday,07:48,23.44,#lifestyle #technology #travel #nature,lifestyle,18-24-female
+post_070,reel,2030,247,24,46348.5,Thursday,00:15,23.01,#art #photography #beauty #technology,education,18-24-other
+post_004,photo,1857,313,103,49096.0,Monday,15:12,22.73,#technology #viral #lifestyle,fashion,25-34-other
+post_029,photo,1382,113,739,29251.0,Wednesday,10:12,22.34,#trending #viral,beauty,25-34-male
+post_081,carousel,1469,286,358,33580.0,Thursday,10:42,21.13,#fitness #travel #nature,lifestyle,25-34-female
+post_014,photo,1697,313,103,16202.0,Sunday,20:10,21.13,#travel #nature #fitness #art #technology,food,18-24-female
+post_044,video,1391,172,494,47175.0,Wednesday,05:49,20.57,#viral #food #technology #art #trending,tech,35-44-male
+post_074,reel,1247,374,404,45333.0,Friday,18:14,20.25,#technology,tech,35-44-male
+post_026,photo,1406,465,132,9311.0,Sunday,03:10,20.03,#trending #technology #food #travel,lifestyle,35-44-female
+post_099,photo,1116,167,686,1851.0,Tuesday,14:05,19.69,#travel #photography #fashion,lifestyle,18-24-male
+post_051,reel,798,298,815,21750.0,Sunday,12:37,19.11,#lifestyle #trending #art #beauty #fitness,food,18-24-other
+post_055,story,954,413,481,73339.5,Monday,16:44,18.48,#beauty #art,fashion,35-44-male
+post_065,carousel,866,452,510,45078.0,Monday,17:42,18.28,#trending,fashion,25-34-other
+post_019,video,1463,63,257,29940.0,Friday,18:54,17.83,#lifestyle #technology #trending #viral,tech,18-24-other
+post_030,carousel,809,349,570,38945.0,Wednesday,21:17,17.28,#photography,food,35-44-other
+post_088,story,588,462,669,16234.5,Sunday,06:09,17.19,#technology #art #food #trending,education,18-24-other
+post_035,story,763,108,796,13962.0,Wednesday,06:53,16.67,#fitness #beauty #travel #technology #trending,travel,35-44-male
+post_098,photo,723,229,696,23687.0,Saturday,13:05,16.48,#travel #beauty #lifestyle #technology #nature,food,35-44-other
+post_072,photo,708,47,780,44225.0,Monday,22:01,15.35,#food #photography #trending #technology,fitness,25-34-female
+post_000,video,963,69,481,30749.0,Monday,01:32,15.13,#fitness #photography #art #nature #beauty,education,25-34-other
+post_008,carousel,1159,46,284,49747.0,Monday,22:45,14.89,#photography #nature,lifestyle,25-34-female
+post_061,video,302,137,925,8253.0,Tuesday,22:21,13.64,#fashion #travel,lifestyle,35-44-female
+post_083,photo,246,106,804,3849.0,Sunday,19:31,11.56,#trending #photography,fitness,25-34-male
+post_002,reel,663,11,377,5236.5,Thursday,03:29,10.51,#photography #trending,travel,18-24-female
+post_069,story,297,31,689,45186.0,Friday,03:30,10.17,#photography,education,25-34-other
+post_079,photo,759,36,147,24049.0,Sunday,01:33,9.42,#beauty #art #nature #photography #lifestyle,beauty,25-34-female
+post_097,video,362,181,309,26471.0,Saturday,06:45,8.52,#technology #fashion,tech,35-44-female
