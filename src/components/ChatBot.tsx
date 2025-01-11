@@ -577,27 +577,24 @@ export function ChatBot({ isOpen = true, onClose }: ChatBotProps): React.ReactEl
     setMessages(newMessages);
     
     try {
-      console.log('Making API request...');
       const data = await runFlow(message);
-      console.log('API response:', JSON.stringify(data, null, 2));
       
-      // Extract the response from the nested structure
-      const responseText = data.outputs?.[0]?.outputs?.[0]?.results?.message?.text;
-      console.log('Extracted response text:', responseText);
-      
-      const response = responseText || "Sorry, I couldn't process that request.";
-      console.log('Final response:', response);
-      
-      setMessages([...newMessages, { role: 'assistant', content: response }]);
+      if (!data || !data.response) {
+        throw new Error('Invalid response from API');
+      }
+
+      setMessages([...newMessages, { 
+        role: 'assistant', 
+        content: data.response 
+      }]);
     } catch (error) {
       console.error('API Error:', error);
       setMessages([...newMessages, { 
         role: 'assistant', 
-        content: "Sorry, I'm having trouble connecting to the server. Please try again later." 
+        content: "I'm having trouble connecting to the server. Please check your API configuration or try again later." 
       }]);
     } finally {
       setIsLoading(false);
-      console.log('Request completed');
     }
   };
 
