@@ -97,7 +97,10 @@ export default async function handler(request: Request) {
     const data = await apiResponse.json();
     console.log('API Response Data:', JSON.stringify(data, null, 2));
     
-    if (!data || (!data.output?.text && !data.message)) {
+    // Extract the message text from the nested structure
+    const messageText = data?.outputs?.[0]?.outputs?.[0]?.results?.message?.text;
+    
+    if (!messageText) {
       console.error('Invalid API response structure:', data);
       return new Response(
         JSON.stringify({ 
@@ -111,9 +114,9 @@ export default async function handler(request: Request) {
     console.log('Sending successful response');
     return new Response(
       JSON.stringify({
-        response: data.output?.text || data.message,
+        response: messageText,
         debug: { 
-          responseType: data.output?.text ? 'output.text' : 'message',
+          responseType: 'message.text',
           fullResponse: data
         }
       }),
