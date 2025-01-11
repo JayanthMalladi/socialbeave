@@ -621,7 +621,8 @@ export function ChatBot({ isOpen = true, onClose }: ChatBotProps): React.ReactEl
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
-            className="fixed left-[470px] top-[95px] w-[800px] h-[735px] z-50 
+            className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 
+                     w-[95vw] h-[90vh] md:w-[800px] md:h-[735px] z-50 
                      flex flex-col bg-white/80 backdrop-blur-xl
                      rounded-2xl shadow-2xl overflow-hidden border border-white/20"
             style={{

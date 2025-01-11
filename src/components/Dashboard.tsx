@@ -407,10 +407,7 @@ export default function Dashboard({ onChatbotStateChange }: DashboardProps) {
           </div>
         </motion.div>
         
-        <motion.div 
-          variants={fadeInUp}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12"
-        >
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <motion.div
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
@@ -467,12 +464,9 @@ export default function Dashboard({ onChatbotStateChange }: DashboardProps) {
               {`${(totalLikes / data.length).toFixed(0)} avg. likes per post`}
             </p>
           </motion.div>
-        </motion.div>
+        </div>
 
-        <motion.div 
-          variants={fadeInUp}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6"
-        >
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <motion.div
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
@@ -522,12 +516,9 @@ export default function Dashboard({ onChatbotStateChange }: DashboardProps) {
               </div>
             </div>
           </motion.div>
-        </motion.div>
+        </div>
 
-        <motion.div 
-          variants={fadeInUp}
-          className="grid grid-cols-1 md:grid-cols-2 gap-8"
-        >
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <motion.div
             whileHover={{ scale: 1.01 }}
             className={`${cardStyle} bg-white p-6 rounded-xl shadow`}
@@ -557,12 +548,9 @@ export default function Dashboard({ onChatbotStateChange }: DashboardProps) {
               options={pieChartOptions}
             />
           </motion.div>
-        </motion.div>
+        </div>
 
-        <motion.div 
-          variants={fadeInUp}
-          className="grid grid-cols-1 md:grid-cols-2 gap-8"
-        >
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <motion.div
             whileHover={{ scale: 1.01 }}
             className={`${cardStyle} bg-white p-6 rounded-xl shadow`}
@@ -622,7 +610,7 @@ export default function Dashboard({ onChatbotStateChange }: DashboardProps) {
               options={barChartOptions}
             />
           </motion.div>
-        </motion.div>
+        </div>
       </motion.div>
 
       <div className="fixed bottom-6 right-6 flex flex-col items-end gap-3 z-40">
