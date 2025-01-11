@@ -606,14 +606,8 @@ export function ChatBot({ isOpen = true, onClose }: ChatBotProps): React.ReactEl
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-40"
+            className="fixed inset-0 z-40 bg-black/20 backdrop-blur-sm"
             onClick={onClose}
-            style={{ 
-              background: 'rgba(0, 0, 0, 0.2)',
-              backdropFilter: 'blur(12px)',
-              WebkitBackdropFilter: 'blur(12px)',
-              '-webkit-backdrop-filter': 'blur(12px)' // for Safari support
-            }}
           />
           
           <motion.div 
@@ -621,14 +615,20 @@ export function ChatBot({ isOpen = true, onClose }: ChatBotProps): React.ReactEl
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
-            className="fixed left-[470px] top-[95px] w-[800px] h-[735px] z-50 
-                     flex flex-col bg-white/80 backdrop-blur-xl
-                     rounded-2xl shadow-2xl overflow-hidden border border-white/20"
+            className="fixed left-0 right-0 mx-auto 
+                       w-[90%] md:w-[80%] lg:w-[800px] h-[90vh] max-h-[735px] z-50
+                       flex flex-col bg-white/80 backdrop-blur-xl rounded-2xl shadow-2xl 
+                       overflow-hidden border border-white/20"
             style={{
+              maxWidth: '800px',
+              maxHeight: '735px',
+              height: '90vh',
+              top: '27%',
+              transform: 'translateY(-50%)',
+              marginTop: '-9rem',
               boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.07)',
               backdropFilter: 'blur(12px)',
               WebkitBackdropFilter: 'blur(12px)',
-              '-webkit-backdrop-filter': 'blur(12px)'
             }}
           >
             {/* Header */}
