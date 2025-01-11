@@ -4,13 +4,6 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 14px;
-  @screen sm {
-    font-size: 15px;
-  }
-  @screen lg {
-    font-size: 16px;
-  }
 }
 
 .gradient-text {
@@ -108,19 +101,4 @@ html, body {
   overflow-x: hidden;
   width: 100%;
   position: relative;
-  -webkit-tap-highlight-color: transparent;
-}
-
-@layer utilities {
-  .responsive-container {
-    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
-
-  .responsive-padding {
-    @apply px-4 sm:px-6 lg:px-8;
-  }
-
-  .responsive-grid {
-    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8;
-  }
 }
