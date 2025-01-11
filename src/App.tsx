@@ -11,17 +11,19 @@ function App() {
 
   return (
     <Router>
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-gray-50 overflow-x-hidden">
         <Navbar isChatbotOpen={isChatbotOpen} />
-        <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route 
-            path="/dashboard" 
-            element={<Dashboard onChatbotStateChange={setIsChatbotOpen} />} 
-          />
-          <Route path="/about" element={<About />} />
-          <Route path="/team" element={<Team />} />
-        </Routes>
+        <div className="w-full max-w-[2000px] mx-auto px-4 sm:px-6 lg:px-8">
+          <Routes>
+            <Route path="/" element={<Hero />} />
+            <Route 
+              path="/dashboard" 
+              element={<Dashboard onChatbotStateChange={setIsChatbotOpen} />} 
+            />
+            <Route path="/about" element={<About />} />
+            <Route path="/team" element={<Team />} />
+          </Routes>
+        </div>
       </div>
     </Router>
   );

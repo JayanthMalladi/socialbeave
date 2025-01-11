@@ -78,16 +78,16 @@ const MetricsCard = ({
   icon: React.ReactNode;
   trend?: string;
 }) => (
-  <div className="flex items-center p-3 bg-white rounded-lg shadow-sm border border-gray-100">
-    <div className="flex-shrink-0 p-2 rounded-full bg-blue-50">
+  <div className="flex items-center p-2 sm:p-3 bg-white rounded-lg shadow-sm border border-gray-100">
+    <div className="flex-shrink-0 p-1.5 sm:p-2 rounded-full bg-blue-50">
       {icon}
     </div>
-    <div className="ml-3">
-      <p className="text-sm font-medium text-gray-600">{label}</p>
-      <div className="flex items-center gap-2">
-        <p className="text-lg font-semibold text-gray-900">{value}</p>
+    <div className="ml-2 sm:ml-3">
+      <p className="text-xs sm:text-sm font-medium text-gray-600">{label}</p>
+      <div className="flex items-center gap-1 sm:gap-2">
+        <p className="text-base sm:text-lg font-semibold text-gray-900">{value}</p>
         {trend && (
-          <span className="text-xs font-medium text-green-600 bg-green-50 px-2 py-0.5 rounded-full">
+          <span className="text-[10px] sm:text-xs font-medium text-green-600 bg-green-50 px-1.5 sm:px-2 py-0.5 rounded-full">
             {trend}
           </span>
         )}
@@ -155,26 +155,26 @@ const renderInsights = (message: Message) => {
     return (
       <div className="space-y-6 max-w-full bg-gray-50 rounded-lg p-4">
         {/* Key Metrics */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4">
           <MetricsCard 
             label="Expected Views" 
             value={insights.metrics.views}
-            icon={<Eye className="w-5 h-5 text-blue-500" />}
+            icon={<Eye className="w-4 h-4 sm:w-5 sm:h-5 text-blue-500" />}
           />
           <MetricsCard 
             label="Expected Likes" 
             value={insights.metrics.likes}
-            icon={<Heart className="w-5 h-5 text-red-500" />}
+            icon={<Heart className="w-4 h-4 sm:w-5 sm:h-5 text-red-500" />}
           />
           <MetricsCard 
             label="Expected Comments" 
             value={insights.metrics.comments}
-            icon={<MessageSquare className="w-5 h-5 text-green-500" />}
+            icon={<MessageSquare className="w-4 h-4 sm:w-5 sm:h-5 text-green-500" />}
           />
           <MetricsCard 
             label="Expected Shares" 
             value={insights.metrics.shares}
-            icon={<Share className="w-5 h-5 text-purple-500" />}
+            icon={<Share className="w-4 h-4 sm:w-5 sm:h-5 text-purple-500" />}
           />
         </div>
 
@@ -622,10 +622,12 @@ export function ChatBot({ isOpen = true, onClose }: ChatBotProps): React.ReactEl
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
             className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 
-                     w-[95vw] h-[90vh] md:w-[800px] md:h-[735px] z-50 
+                     w-[95%] sm:w-[85%] md:w-[800px] h-[90vh] md:h-[735px] z-50 
                      flex flex-col bg-white/80 backdrop-blur-xl
                      rounded-2xl shadow-2xl overflow-hidden border border-white/20"
             style={{
+              maxWidth: '800px',
+              maxHeight: '90vh',
               boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.07)',
               backdropFilter: 'blur(12px)',
               WebkitBackdropFilter: 'blur(12px)',
